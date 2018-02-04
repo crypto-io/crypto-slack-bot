@@ -1,8 +1,8 @@
 {
-  "name": "slack-tos-example",
+  "name": "crypto-slack-bot",
   "private": true,
-  "version": "1.0.0",
-  "description": "Sample Slack app that uses the Events API and interactive messages to send new users a Terms of Service or welcome message",
+  "version": "0.1.0",
+  "description": "The official Cryptocoin Slack bot.",
   "engines": {
     "node": ">= 6.9.0"
   },

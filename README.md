@@ -1,4 +1,7 @@
-# Slack Terms of Service / Welcome message template
+# crypto-slack-bot
+
+## Features
+### Slack Terms of Service / Welcome message template
 
 Sample Slack app that presents a Terms of Service (or any other message) when a new user joins a team.
 
@@ -15,10 +18,9 @@ The user can accept the Terms of Service using message buttons. If a user has be
 1. Navigate to the Install App page and install the app
 1. Copy the `xoxb-` token after the installation process is complete
 
-#### Run locally or [![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/remix/slack-terms-of-service-blueprint)
+#### Run locally
 1. Get the code
-    * Either clone this repo and run `npm install`
-    * Or visit https://glitch.com/edit/#!/remix/slack-terms-of-service-blueprint
+    * Clone this repo and run `npm install`
 1. Set the following environment variables to `.env` (see `.env.sample`):
     * `SLACK_TOKEN`: Your app's `xoxb-` token (available on the Install App page)
     * `SLACK_VERIFICATION_TOKEN`: Your app's Verification Token (available on the Basic Information page)
@@ -36,3 +38,6 @@ The user can accept the Terms of Service using message buttons. If a user has be
 
 1. In the app settings, click on Interactive Messages
 1. Set the Request URL to your ngrok or Glitch URL + /interactive-message
+
+# Credits
+[slackapi](https://github.com/slackapi/template-terms-of-service) 
